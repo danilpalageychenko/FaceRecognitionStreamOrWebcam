@@ -42,9 +42,10 @@ class MyThread(Thread):
                         #print(t1[0] == str1[-1], "  ", (now - last_data).seconds < 60)
                         #print(t1[0], str1[-1], (now - last_data).seconds)
                         #print("qwe ", (now - last_data).seconds, t1[0] + " " + str1[-1] + "\n")
-                       #with open("log/log.txt", "a") as my_file:
+                     #with open("log/log.txt", "a") as my_file:
                         my_file = open("log/log.txt", "a")
                         my_file.write("ОБАНАРУЖЕННО:....Дата: " + now.strftime("%d-%m-%Y %H:%M") + " Призвище особи - " + t1[0] + "\n")
+                        print("ОБАНАРУЖЕННО:....Дата: " + now.strftime("%d-%m-%Y %H:%M") + " Призвище особи - " + t1[0])
                         my_file.close()
                         with open('find/' + t1[0] + ".jpg", "rb") as f:
                             telegram_send.send(messages=["Дата: "+now.strftime("%d-%m-%Y %H:%M")+" Призвище особи - "+t1[0]], images=[f])
@@ -58,5 +59,5 @@ class MyThread(Thread):
                         #print("qweqwe" + str1[1] + " " + str1[2] + "qweqweqwe")
                         #print((now - datetime.strptime(str1[1] + " " + str1[2],'%d-%m-%Y %H:%M')).seconds > 60)
                         #print((now - datetime.strptime(str1[1] + " " + str1[2],'%d-%m-%Y %H:%M')).seconds)
-                    
+
         

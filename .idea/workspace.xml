@@ -14,6 +14,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WCiLqb1MI0PD6otMW3Z75sconZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,8 +26,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/trnsl.py" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager" selected="Python.trnsl">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -131,6 +134,7 @@
       <workItem from="1578659929838" duration="2765000" />
       <workItem from="1578671298965" duration="9373000" />
       <workItem from="1578732472532" duration="19039000" />
+      <workItem from="1580198541031" duration="1365000" />
     </task>
     <servers />
   </component>
@@ -151,33 +155,39 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="507" y="188" key="#com.intellij.tools.ToolEditorDialog/0.0.1280.680@0.0.1280.680" timestamp="1578673059565" />
-    <state x="733" y="127" key="FileChooserDialogImpl" timestamp="1578673014867">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="-820" y="37" key="FileChooserDialogImpl" timestamp="1580198582179">
+      <screen x="-1920" y="-157" width="1920" height="1040" />
     </state>
+    <state x="-820" y="37" key="FileChooserDialogImpl/0.0.1280.680/1920.-146.1920.1040/-1920.-157.1920.1040@-1920.-157.1920.1040" timestamp="1580198582179" />
     <state x="733" y="127" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1578673014867" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1578754466720">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1580199970109">
+      <screen x="-1920" y="-157" width="1920" height="1040" />
     </state>
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-146.1920.1040/-1920.-157.1920.1040@-1920.-157.1920.1040" timestamp="1580199970109" />
     <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1578754466720" />
     <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578675204719" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1578754466720">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="347" key="GridCell.Tab.0.center" timestamp="1580199970108">
+      <screen x="-1920" y="-157" width="1920" height="1040" />
     </state>
+    <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1280.680/1920.-146.1920.1040/-1920.-157.1920.1040@-1920.-157.1920.1040" timestamp="1580199970108" />
     <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1578754466720" />
     <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578675204719" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1578754466720">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="347" key="GridCell.Tab.0.left" timestamp="1580199970108">
+      <screen x="-1920" y="-157" width="1920" height="1040" />
     </state>
+    <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1280.680/1920.-146.1920.1040/-1920.-157.1920.1040@-1920.-157.1920.1040" timestamp="1580199970108" />
     <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1578754466720" />
     <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578675204719" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1578754466720">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="347" key="GridCell.Tab.0.right" timestamp="1580199970108">
+      <screen x="-1920" y="-157" width="1920" height="1040" />
     </state>
+    <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1280.680/1920.-146.1920.1040/-1920.-157.1920.1040@-1920.-157.1920.1040" timestamp="1580199970108" />
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1578754466720" />
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578675204719" />
-    <state x="243" y="0" key="SettingsEditor" timestamp="1578671646878">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="-1555" y="-157" key="SettingsEditor" timestamp="1580198583631">
+      <screen x="-1920" y="-157" width="1920" height="1040" />
     </state>
+    <state x="-1555" y="-157" key="SettingsEditor/0.0.1280.680/1920.-146.1920.1040/-1920.-157.1920.1040@-1920.-157.1920.1040" timestamp="1580198583631" />
     <state x="243" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1578671646878" />
     <state x="348" y="167" key="com.intellij.ide.util.TipDialog" timestamp="1578732472519">
       <screen x="0" y="0" width="1280" height="680" />
@@ -192,9 +202,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="631" y="78" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.0.1280.680@0.0.1280.680" timestamp="1578673060158" />
+    <state x="137" y="-13" width="1294" height="652" maximized="true" key="dock-window-1" timestamp="1580199249349">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="137" y="-13" width="1294" height="652" maximized="true" key="dock-window-1/0.0.1280.680/1920.-146.1920.1040/-1920.-157.1920.1040@-1920.-157.1920.1040" timestamp="1580199249349" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/cam$test.coverage" NAME="test Coverage Results" MODIFIED="1578750749295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/cam$trnsl.coverage" NAME="trnsl Coverage Results" MODIFIED="1578754466713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/camOld$trnsl.coverage" NAME="trnsl Coverage Results" MODIFIED="1580199489856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

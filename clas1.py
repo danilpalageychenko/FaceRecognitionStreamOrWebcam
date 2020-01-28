@@ -6,30 +6,33 @@ import datetime
 import glob
 from threading import Thread
 class MyThread1(Thread):
-    def __init__(self):
+    def __init__(self, arg1, arg2, arg3):
         Thread.__init__(self)
-        self.arg1 = "shape_predictor_68_face_landmarks.dat"
-        #self.arg1 = "shape_predictor_5_face_landmarks.dat"
-        self.arg2 = 'dlib_face_recognition_resnet_model_v1.dat'
+        self.detector = arg1
+        self.sp = arg2
+        self.facerec = arg3
+
         self.dict = {}
+
         
     def run(self):
-        predictor_path = self.arg1
-        face_rec_model_path = self.arg2
-        detector = dlib.get_frontal_face_detector()
-        sp = dlib.shape_predictor(predictor_path)
-        facerec = dlib.face_recognition_model_v1(face_rec_model_path)
+        detector = self.detector
+        sp = self.sp
+        facerec = self.facerec
+
         face_descriptor_it = []
         face_descriptor_name = []
     
         now1 = datetime.datetime.now()
         my_file = open("log/log.txt", "a")
         my_file.write("Начало работы: "+now1.strftime("%d-%m-%Y %H:%M")+"\n")
+        print("Начало работы: "+now1.strftime("%d-%m-%Y %H:%M"))
 
         for fil in glob.iglob('foto/**/*.jpg', recursive=True):
             img = dlib.load_rgb_image(fil)
      
             my_file.write("В обработке файлы цели: "+fil+"\n")
+            print("В обработке файлы цели: "+fil)
             try:
                 dets = detector(img)
                 for k, d in enumerate(dets):
@@ -41,6 +44,7 @@ class MyThread1(Thread):
                     #self.dict.update(dict2)
             except:
                 pass
-           
+
+        print("Можно работать!")
         my_file.close()
     

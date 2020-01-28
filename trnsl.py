@@ -21,7 +21,7 @@ facerec = dlib.face_recognition_model_v1(face_rec_model_path)
 color_green = (0,255,0)
 line_width = 3
 
-f=clas1.MyThread1()
+f=clas1.MyThread1(detector, sp, facerec)
 f.start()
 f.join()
 
