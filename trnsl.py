@@ -4,7 +4,7 @@ import dlib
 import clas1
 import clas
 cam = cv2.VideoCapture(0)
-#cam.open('rtsp://admin:admin12345678@192.168.83.1:554/cam/realmonitor?channel=6&subtype=1')
+#cam.open('rtsp://admin:admin@192.168.83.1:554/cam/realmonitor?channel=6&subtype=1')
 
 
 
